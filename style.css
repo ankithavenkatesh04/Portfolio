@@ -480,4 +480,21 @@ body {
   transform: scale(1.2); /* subtle zoom on hover */
 }
 
+.testimonial-card {
+  position: relative;
+}
+
+.testimonial-link {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  font-size: 13px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.testimonial-link:hover {
+  color: #fff; /* or your accent color */
+  text-decoration: underline;
+}
 
